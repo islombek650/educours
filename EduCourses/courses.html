@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses - EduCourse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class='navbar-brand' href='/'>EduCourse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class='nav-link' href='/'>Home</a></li>
+          <li class="nav-item"><a class='nav-link active' href='courses.html'>Courses</a></li>
+          <li class="nav-item"><a class='nav-link' href='about.html'>About</a></li>
+          <li class="nav-item"><a class='nav-link' href='contact.html'>Contact</a></li>
+          <li class="nav-item"><a class='btn btn-light btn-sm ms-2' href='register.html'>Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Title -->
+  <section class="bg-light py-5 text-center">
+    <div class="container">
+      <h1 class="display-5">Our Courses</h1>
+      <p class="lead">Browse through our wide range of professional courses.</p>
+    </div>
+  </section>
+
+  <!-- Courses List -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Course Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="Web Dev">
+            <div class="card-body">
+              <h5 class="card-title">Full Stack Web Development</h5>
+              <p class="card-text">HTML, CSS, JS, Node.js, React va boshqa texnologiyalar.</p>
+              <a class='btn btn-primary btn-sm' href='/course-detail.html'>View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="Python">
+            <div class="card-body">
+              <h5 class="card-title">Python for Beginners</h5>
+              <p class="card-text">Python dasturlash tilining asoslarini o'rganing.</p>
+              <a class='btn btn-primary btn-sm' href='/course-detail.html'>View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="UI/UX">
+            <div class="card-body">
+              <h5 class="card-title">UI/UX Design Principles</h5>
+              <p class="card-text">Zamonaviy dizayn asoslari va Figma, Adobe XD bilan ishlash.</p>
+              <a class='btn btn-primary btn-sm' href='/course-detail.html'>View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more courses below as needed -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="Marketing">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">SEO, SMM, Email Marketing asoslari.</p>
+              <a class='btn btn-primary btn-sm' href='/course-detail.html'>View Details</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <div class="container">
+      &copy; 2025 EduCourse. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

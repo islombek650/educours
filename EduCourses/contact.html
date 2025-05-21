@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - EduCourse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class='navbar-brand' href='/'>EduCourse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class='nav-link' href='/'>Home</a></li>
+          <li class="nav-item"><a class='nav-link' href='courses.html'>Courses</a></li>
+          <li class="nav-item"><a class='nav-link' href='about.html'>About</a></li>
+          <li class="nav-item"><a class='nav-link active' href='contact.html'>Contact</a></li>
+          <li class="nav-item"><a class='btn btn-light btn-sm ms-2' href='register.html'>Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h1 class="text-center mb-4">Contact Us</h1>
+      <p class="text-center mb-5">Have questions? Feel free to get in touch with us using the form below or our contact info.</p>
+
+      <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-6">
+          <div class="card p-4 h-100 shadow-sm">
+            <h5>Contact Information</h5>
+            <p><strong>Address:</strong> IT-Park, Urgench, Uzbekistan</p>
+            <p><strong>Email:</strong> support@Islombekdev.uz</p>
+            <p><strong>Phone:</strong> +998 88 038 28 81</p>
+
+            <!-- Embedded Map (you can replace the src with your own Google Map link) -->
+            <div class="ratio ratio-16x9 mt-3">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057152.6610775935!2d55.7439538125!3d41.5584081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dfc9842c81fc9d%3A0x9e434d2b8a616ce9!2sIT%20Park!5e0!3m2!1sen!2s!4v1746440709860!5m2!1sen!2s" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <div class="container">
+      &copy; 2025 EduCourse. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
